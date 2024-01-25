@@ -1,0 +1,1 @@
+﻿<%@ WebService Language="VB" CodeBehind="Bancos.asmx.vb" Class="WSConpaqi.WSBancos" %>
