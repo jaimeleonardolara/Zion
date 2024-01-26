@@ -854,7 +854,7 @@ Public Class WSBancos
         vcCnx = "Server=" & vpservidor & ";Database=" & vpbase & ";Uid=" & vpusuario & ";Password=" & vpclave & ";Trusted_Connection=False;"
 
         If IniciaSDK(vpusuariocontpaqi, vpclavecontpaqi, vpbase, vpMsg) Then ' solo devuelve el json con campo MSG
-            'aqui cuando inicializa eel sdk, es otro error, ahi se devuelve solo MSG, 
+            'aqui cuando inicializa el sdk, es otro error, ahi se devuelve solo MSG, 
             Try
                 For Each row In vpmovimientos
                     Select Case row(5) 'tipomovimiento
